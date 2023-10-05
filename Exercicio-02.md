@@ -1,0 +1,3 @@
+Coesão:  A função maxmin tem uma coesão funcional, que é a forma mais alta de coesão. Isso porque ela é projetada para fazer exatamente uma coisa: encontrar e retornar os valores máximo e mínimo em um vetor. Ela realiza essa tarefa sem se desviar para realizar outras operações não relacionadas.
+
+Acoplamento:  A função maxmin tem acoplamento de parâmetro. Isso significa que a função se comunica com o resto do programa (neste caso, a função main) apenas através de parâmetros e retornos, sem usar ou afetar qualquer outra parte do estado do programa. A função não depende de variáveis globais, nem modifica o estado fora de seu próprio escopo, exceto pelos valores referenciados passados como parâmetros.
